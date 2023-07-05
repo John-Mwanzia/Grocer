@@ -53,6 +53,11 @@ li a{
     color: black;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .home-title{
     margin-left: 9%;
     margin-top: 50px;
