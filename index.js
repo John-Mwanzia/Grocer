@@ -1,10 +1,8 @@
-//create a form validation with js for the following input fields: nameField, emailField,messageField
 
 
  const nameField = document.getElementById('nameField');
     const emailField = document.getElementById('emailField');
     const messageField = document.getElementById('messageField');
-    const submitBtn = document.getElementById('submitBtn');
     const form = document.getElementById('myForm');
 
     form.addEventListener('submit', (e) => {
