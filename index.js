@@ -5,7 +5,7 @@
     const emailField = document.getElementById('emailField');
     const messageField = document.getElementById('messageField');
     const submitBtn = document.getElementById('submitBtn');
-    const form = document.getElementById('form');
+    const form = document.getElementById('myForm');
 
     form.addEventListener('submit', (e) => {
         e.preventDefault();
@@ -28,7 +28,7 @@
         else {
             alert('Form submitted successfully');
         }
-        
+
     }
 
 
