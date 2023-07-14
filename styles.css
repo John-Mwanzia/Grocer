@@ -141,7 +141,14 @@ a{
 .contact-wrapper{
     margin-left: 9%;
     margin-top: 50px;
-    width: 50%;
+    width: 35%;
+}
+
+.input-fields{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 #nameField{
     width: 300px;
@@ -161,12 +168,12 @@ a{
 }
 
 #messageField{
-    width: 67.5%;
+    width: 98%;
     height: 100px;
     border-radius: 5px;
     border: 1px solid #ccc;
     padding-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 #btn{
@@ -174,8 +181,24 @@ a{
     height: 30px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color: #30324A;
+    background-color: #B4E4FF;
     color: white;
     cursor: pointer;
 
+}
+
+#btn:hover{
+    background-color: #A3D4F5;
+    color: white;
+}
+
+
+/* Media Queries */
+ @media screen and (max-width: 768px){
+    .contact-wrapper{
+        width: 100%;
+    }
+    #messageField{
+        width: 78%;
+    }
 }
