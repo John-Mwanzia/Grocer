@@ -358,14 +358,17 @@ background-color: #ffffff;
   max-width: 42.7rem;
   max-height: 41.4rem;
 }
-.right__sectio{
+.right__section{
   position: relative;
 }
 .bike__delivery{
   position: absolute;
-  top: o;
-  left: 0;
+  width: 10.4rem;
+  height: 14rem;
+  top: 7rem;
+  left: -8rem;
 }
+
 
 
 
