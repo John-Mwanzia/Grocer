@@ -433,6 +433,8 @@ line-height: 1.8rem; /* 166.667% */
   gap: 10rem;
   justify-content: center;
   color: #676767;
+  font-family: Poppins;
+  padding-bottom: 3rem;
 }
 /* .footer__title{
   text-align: center;
@@ -482,8 +484,27 @@ line-height: 1.8rem; /* 166.667% */
   background-color: #FEF5F5;
   cursor: pointer;
 }
-
-
+hr{
+  background: #ECECEC;
+  opacity: 0.5;
+}
+.copyright{
+  color: #676767;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 43rem;
+}
+.terms__privacy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.terms__privacy a{
+  text-decoration: none;
+  color: #676767;
+}
 
 
 
