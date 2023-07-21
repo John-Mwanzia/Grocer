@@ -426,7 +426,7 @@ line-height: 1.8rem; /* 166.667% */
   max-width: 80%;
   margin: 0 auto;
   padding-top: 6.25rem;
-  padding-bottom: 8.25rem;
+  padding-bottom: 3.25rem;
 }
 .footer__links{
   display: flex;
@@ -494,6 +494,7 @@ hr{
   justify-content: center;
   align-items: center;
   gap: 43rem;
+  padding-top: 2rem;
 }
 .terms__privacy{
   display: flex;
