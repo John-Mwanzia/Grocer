@@ -25,83 +25,82 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <nav class="nav__container">
-        <div class="nav__wrapper">
-          <div class="logo">
-            <a href="index.html">
-              <img src="public\images\logo.svg" alt="logo" />
-            </a>
+    <!-- Navigation -->
+    <nav class="nav__container">
+      <div class="nav__wrapper">
+        <div class="logo">
+          <a href="index.html">
+            <img src="public\images\logo.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html" class="home__link">Home</a></li>
+            <li><a href="products.html">Menu</a></li>
+            <li><a href="about.html">Service</a></li>
+            <li><a href="about.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="search-cart">
+          <div class="search">
+            <input type="text" class="search__input" placeholder="Search" />
+            <button class="search-icon">
+              <img src="public\images\icon.svg" alt="search" />
+            </button>
           </div>
-          <div class="nav-links">
-            <ul>
-              <li><a href="index.html" class="home__link">Home</a></li>
-              <li><a href="products.html">Menu</a></li>
-              <li><a href="about.html">Service</a></li>
-              <li><a href="about.html">Shop</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <div class="cart">
+            <a href="#"><img src="public\images\cart.svg" alt="cart"/></a>
           </div>
-          <div class="search-cart">
-            <div class="search">
-              <input type="text" class="search__input" placeholder="Search" />
-              <button class="search-icon">
-                <img src="public\images\icon.svg" alt="search" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div class="hero-section">
+      <div class="right-hero-section">
+        <div class="intro-feature">
+          <p>
+            More than Faster
+          </p>
+          <div>
+            <img class="pear" src="public\images\pear.svg" alt="" />
+          </div>
+        </div>
+        <div class="hero-text">
+          <div>
+            <h1 class="hero-large-text">
+              Groceries <br />
+              delivered in as <br />
+              little as <span class="red-text">2 hours</span>
+            </h1>
+          </div>
+          <div>
+            <p class="light-text">
+              Grocen atssures fresh grocery every morning to your <br />
+              family without getting out in this pandemic.
+            </p>
+          </div>
+        </div>
+        <div class="call-to-action">
+          <button class="order-button">Order Now</button>
+          <div class="play">
+            <div class="play-button">
+              <button class="play-wrapper">
+                <img
+                  class="play-button"
+                  src="public\images\button-play.png"
+                  alt="play-button"
+                />
               </button>
             </div>
-            <div class="cart">
-              <a href="#"><img src="public\images\cart.svg" alt="cart"/></a>
-            </div>
+            <h2>Order Process</h2>
           </div>
         </div>
-      </nav>
-
-      <!-- Hero Section -->
-
-      <div class="hero-section">
-        <div class="right-hero-section">
-          <div class="intro-feature">
-            <p>
-              More than Faster
-            </p>
-            <div>
-              <img class="pear" src="public\images\pear.svg" alt="" />
-            </div>
-          </div>
-          <div class="hero-text">
-            <div>
-              <h1 class="hero-large-text">
-                Groceries <br />
-                delivered in as <br />
-                little as <span class="red-text">2 hours</span>
-              </h1>
-            </div>
-            <div>
-              <p class="light-text">
-                Grocen atssures fresh grocery every morning to your <br />
-                family without getting out in this pandemic.
-              </p>
-            </div>
-          </div>
-          <div class="call-to-action">
-            <button class="order-button">Order Now</button>
-            <div class="play">
-              <div class="play-button">
-                <button class="play-wrapper">
-                  <img
-                    class="play-button"
-                    src="public\images\button-play.png"
-                    alt="play-button"
-                  />
-                </button>
-              </div>
-              <h2>Order Process</h2>
-            </div>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img src="public\images\heero-image.png" alt="hero-image" />
-        </div>
+      </div>
+      <div class="hero-image">
+        <img src="public\images\heero-image.png" alt="hero-image" />
       </div>
     </div>
 
@@ -161,7 +160,6 @@
       </div>
     </div>
 
-
     <!-- Products Section -->
     <div class="why__choose">
       <div class="right__image">
@@ -196,7 +194,6 @@
       </div>
     </div>
 
-
     <!--Delivery Section -->
     <div class="delivery__section">
       <div class="left__section">
@@ -205,7 +202,8 @@
         </div>
         <div class="intro__title">
           <h3>
-            Sit at Home We Will <br/> Take Care Your Order
+            Sit at Home We Will <br />
+            Take Care Your Order
           </h3>
         </div>
         <div class="delivery__body__text">
@@ -232,7 +230,6 @@
         </div>
       </div>
     </div>
-
 
     <!-- Call to action Section -->
     <div class="CTA">
@@ -271,7 +268,6 @@
         </div>
       </div>
     </div>
-
 
     <!-- Footer -->
     <footer>
@@ -313,8 +309,7 @@
             <h3 class="footer__title">Get in Touch</h3>
             <p>
               Subscribe to our weekly Newsletter <br />
-              and receive 
-              updates via email.
+              and receive updates via email.
             </p>
             <form action="" class="footer__form">
               <input
@@ -326,7 +321,7 @@
             </form>
           </div>
         </div>
-        <hr/>
+        <hr />
         <div class="copyright">
           <p>© 2023 Grocer. All Rights Reserved.</p>
           <div class="terms__privacy">
