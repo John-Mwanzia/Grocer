@@ -308,6 +308,8 @@ text-transform: capitalize;
   border: none;
   margin-top: 2rem;
 }
+
+/* deliver section */
 .delivery__section{
   display: flex;
   max-width: 80%;
@@ -364,6 +366,8 @@ background-color: #ffffff;
   top: 7rem;
   left: -8rem;
 }
+
+/* Call to Action Section */
 .CTA{
  
     background: #FEF5F5; 
@@ -374,9 +378,9 @@ background-color: #ffffff;
   max-width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
+    gap: 30rem;
 }
 .download__intro{
 color: #F54748;
