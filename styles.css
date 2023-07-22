@@ -11,13 +11,14 @@ body {
 .nav__container{
   max-width: 80%;
   margin: 0 auto;
+  padding-bottom: 5rem;
 }
 
 .nav__wrapper{
 display: flex;
 justify-content: space-between;
 align-items: center;
-gap: 9rem;
+gap: 14rem;
 padding-top: 2rem;
 }
 .home__link{
@@ -109,7 +110,7 @@ right: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0;
+  gap: 9rem;
   margin-top: 5rem;
   padding-bottom: 4.8rem;
   max-width: 80%;
