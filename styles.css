@@ -200,7 +200,8 @@ text-transform: capitalize;
 }
 .features__wrapper{
   display: flex;
-  justify-content:space-around;
+  justify-content: center;
+  gap: 14rem;
   align-items:center;
 }
 .feature__item{
