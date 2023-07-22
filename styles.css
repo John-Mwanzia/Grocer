@@ -13,12 +13,6 @@ body {
   margin: 0 auto;
 }
 
-/* .nav__container{
-   display: flex;
-   justify-content: center;
-    align-items: center;
-} */
-
 .nav__wrapper{
 max-width: 80%;
 display: flex;
