@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 .nav__container{
   padding-bottom: 2rem;
@@ -152,7 +153,7 @@ font-family: Poppins;
 font-size: 4.6rem;
 font-style: normal;
 font-weight: 700;
-line-height: 88px; /* 118.919% */
+line-height: 80px; /* 118.919% */
 letter-spacing: -0.74px;
 }
 
@@ -169,7 +170,7 @@ letter-spacing: 0.09px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .order-button{
   background: #F86061;
@@ -539,8 +540,37 @@ hr{
   .nav-links ul{
     gap: 0.7rem;
   }
-  .search-cart{
-
+  .hero-section{
+    gap: 0.4rem;
+  }
+  .hero-large-text{
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .light-text{
+    font-size: 0.82rem;
+    line-height: 1.1rem;
+  }
+  .hero-image{
+    width: 42rem;
+    height: 32rem;
+  }
+  .call-to-action{
+    gap: 3rem;
+  }
+  .order-button{
+    padding: 0.6rem 2rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+  .play{
+    padding-right: 8rem;
+  }
+ 
+  .play h2{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    white-space: nowrap;
   }
 }
 
@@ -553,9 +583,7 @@ hr{
     gap: 0.5rem;
   }
 
-  .search-cart{
 
-  }
 }
 
 @media (max-width: 1024px){
