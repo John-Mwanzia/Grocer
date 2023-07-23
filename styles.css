@@ -473,8 +473,8 @@ line-height: 1.8rem; /* 166.667% */
  
 }
 .footer__links ul li a{
-  text-decoration: none;
-  color: #676767;
+text-decoration: none;
+ color: #676767;
 font-family: Poppins;
 font-size: 0.9rem;
 font-style: normal;
@@ -575,18 +575,56 @@ hr{
  
 
 @media (max-width: 648px){
-     .hamburger{
-      display: block;
-      cursor: pointer;
-    }
-    .nav-links{
-      display: none;
-    }
+  .hamburger{
+    display: block;
+    cursor: pointer;
+  }
     .nav__wrapper{
      gap: 8rem;
       
     }
+    .nav-links{
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 0;
+      width: 100%;
+      background-color: #03A66B;
+      z-index: -1;
+      transition: all 0.5s ease-in;
+    }
+    .nav-links.open{
+      height: 100vh;
+    }
+    .nav-links ul{
+      display: none;
+      position: absolute;
+      top: 5rem;
+      left: 18%;
+      display: block;
+      text-align: center;
+      transition: all 0.5s ease-in;
+      opacity: 0;
+    }
+    
+    .nav-links.open ul{
+      display: block;
+      opacity: 1;
+    }
+
+    .nav-links ul li{
+      padding: 2rem;
+      transition: all 0.3s ease-in;
+    }
+   
+    .nav-links ul li a{
+      color: white;
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+    }
+
     .search-cart{
+      display: none;
       position: absolute;
       top: 6rem;
       left: 14%;
