@@ -595,6 +595,13 @@ hr{
    top: 7rem;
    left: 33%;
   }
+  .hero-section{
+    gap: 0;
+  }
+  .hero-large-text{
+    font-size: 2.7rem;
+    line-height: 2.8rem;
+  }
 
 }
 
