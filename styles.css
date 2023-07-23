@@ -178,23 +178,24 @@ padding: 1rem 2rem;
 color: white;
 border: none;
 }
-
+.play{
+  display: flex;
+  padding-right: 6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 .play-button{
-  border-radius: 50%;
-  width: 70px;
-height: 70px;
-flex-shrink: 0;
-border: none;
+  width: 45px;
+ height: 45px;
 }
 
 .play-wrapper{
   background:#ffffff;
-  border:none
+  border:none;
+ 
 }
-.play{
-  display: flex;
-  padding-right: 6rem;
-}
+
 .features{
   background: #FEF5F5; 
   padding-top: 6.25rem;
