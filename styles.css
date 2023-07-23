@@ -635,7 +635,7 @@ hr{
      .hero-section{
        margin-top: 2rem;
        flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
      }
      .hero-large-text{
         font-size: 2.5rem;
@@ -660,8 +660,26 @@ hr{
       margin-top: 1.5rem;
      }
       .order-button{
-        padding: 0.4rem 1.5rem;
+        padding: 0.5rem 1.5rem;
         font-size: 0.7rem;
+      }
+      .play{
+        padding-right: 0;
+      }
+      .play-button{
+        width: 35px;
+        height: 35px;
+      }
+      .play h2{
+        font-size: 1rem;
+        line-height: 1.8rem;
+      }
+      .hero-image-wrapper{
+        padding: 0 12rem;
+      }
+      .hero-image{
+        width: 28.5rem;
+        height: 20.7rem;
       }
 }
 
