@@ -130,7 +130,7 @@ right: 0.5rem;
 }
 .hero-section{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 9rem;
   margin-top: 5rem;
