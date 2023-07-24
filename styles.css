@@ -592,17 +592,39 @@ hr{
   }
   .search-cart{
    position: absolute;
-   top: 7rem;
-   left: 33%;
+   top: 9rem;
+   left: 53%;
   }
   .hero-section{
-    gap: 0;
+    gap: -2rem;
   }
   .hero-large-text{
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     line-height: 2.8rem;
+    max-width: 100%;
   }
-
+  .intro-feature{
+    position: relative;
+    top: -5rem;
+  }
+  .right-hero-section{
+    max-width: 50%;
+  }
+  .hero-image{
+    width: 24rem;
+    height: 20rem;
+  }
+  .light-text{
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  .red-text{
+    white-space: nowrap;
+  }
+  .call-to-action{
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
 }
 
 @media (max-width: 768px){
