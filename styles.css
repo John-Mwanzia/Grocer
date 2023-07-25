@@ -633,6 +633,30 @@ hr{
     padding-bottom: 2rem;
     max-height: 14rem;
   }
+  .why__choose{
+    gap: 2rem;
+  }
+  .choose__image{
+    max-width: 23rem;
+    max-height: 13rem;
+  }
+  .why__choose__text__title{
+    font-size: 1rem;
+    line-height: 0.5rem;
+  }
+  .why__choose__text__subtitle{
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+  .desc__text__wrapper{
+    font-size: 0.7rem;
+  }
+  .order-button-choice{
+    padding: 0.6rem 2rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    margin-top: 1rem;
+  }
 }
 
 @media (max-width: 768px){
