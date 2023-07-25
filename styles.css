@@ -257,6 +257,11 @@ text-transform: capitalize;
   padding-bottom: 1.5rem;
 }
 
+.choice__wrapper{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .why__choose{
   display: flex;
   max-width: 80%;
