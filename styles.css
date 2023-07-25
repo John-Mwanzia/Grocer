@@ -256,31 +256,6 @@ text-transform: capitalize;
   padding-right: 1.5rem;
   padding-bottom: 1.5rem;
 }
-#middle__box {
- position: relative;
-}
-.skewed__box {
-  position: absolute;
-  border-radius: 0.75rem;
-  width: 310px;
-  height: 334px;
-  top: 0;
-  left: 1rem;
-  transform: rotate(-3deg);
-  z-index: -1;
-}
-
-.skewed__box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  background: #FE6A6A;
-  z-index: -1;
-}
 
 .why__choose{
   display: flex;
@@ -629,6 +604,11 @@ hr{
   }
   .features__wrapper{
     gap: 4rem;
+  }
+  .feature__item{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 15rem;
   }
 }
 
