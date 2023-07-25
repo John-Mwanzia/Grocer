@@ -549,6 +549,24 @@ hr{
   .features__wrapper{
     gap: 6rem;
   }
+  .why__choose{
+    gap: 6rem;
+  }
+  .choose__image{
+    max-width: 30rem;
+    max-height: 20rem;
+  }
+  .why__choose__text__title{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+  .why__choose__text__subtitle{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .desc__text__wrapper{
+     font-size: 0.9rem;
+  }
 }
 
 
