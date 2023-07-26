@@ -685,6 +685,29 @@ hr{
     white-space: nowrap;
     margin-top: 1rem;
   }
+  .cheece__image{
+    max-width: 22.7rem;
+    max-height: 21.4rem;
+  }
+  .bike__deliveryimg{
+    width: 16.4rem;
+    height: 20rem;
+  }
+  .intro__title{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .intro__feature{
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .delivery__body__text{
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .right__section{
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 768px){
