@@ -364,8 +364,8 @@ margin-top: 2rem;
 background-color: #ffffff;
 }
 .cheece__image{
-  max-width: 42.7rem;
-  max-height: 41.4rem;
+  width: 42.7rem;
+  height: 41.4rem;
 }
 .right__section{
   position: relative;
@@ -374,8 +374,11 @@ background-color: #ffffff;
   position: absolute;
   width: 10.4rem;
   height: 14rem;
-  top: 7rem;
-  left: -8rem;
+  top: 8rem;
+  left: -3rem;
+}
+.bike__delivery img{
+  border-radius: 0.5rem;
 }
 
 /* Call to Action Section */
@@ -597,8 +600,8 @@ hr{
     line-height: 1.5rem;
   }
   .bike__delivery{
-    top: 0;
-    left: -9.5rem;
+    top: 3.5rem;
+    left: -4rem;
   }
 }
 
@@ -685,33 +688,65 @@ hr{
     white-space: nowrap;
     margin-top: 1rem;
   }
+  .delivery__wrapper{
+    gap: 5rem;
+  }
   .cheece__image{
     max-width: 22.7rem;
     max-height: 21.4rem;
   }
-  .bike__deliveryimg{
-    width: 16.4rem;
-    height: 20rem;
-  }
   .intro__title{
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
   }
   .intro__feature{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     line-height: 1rem;
   }
   .delivery__body__text{
     font-size: 0.7rem;
     line-height: 1rem;
   }
-  .right__section{
-    max-width: 50%;
+  .bike__delivery img{
+    max-width: 7.4rem;
+    max-height: 10rem;
+  }
+  .delivery__callTo__action button{
+    padding: 0.8rem 2rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    margin-top: 1rem;
   }
 }
 
 @media (max-width: 768px){
- 
+  .intro__title{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .cheece__image{
+    max-width: 38.7rem;
+    max-height: 37.4rem;
+    /* center image */
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+ .delivery__wrapper{
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1.5rem;
+    justify-content: center;
+ }
+  .bike__delivery{
+    top: 6rem;
+    left: -2rem;
+  }
+ .bike__delivery img{
+  max-width: 10.4rem;
+  max-height: 14rem;
+}
 }  
  
 
@@ -835,6 +870,21 @@ hr{
       .why__choose{
         flex-direction: column;
         gap: 2rem;
+      }
+      .delivery__wrapper{
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 1.5rem;
+        justify-content: center;
+      }
+      .cheece__image{
+        max-width: 32.7rem;
+        max-height: 31.4rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .bike__delivery{
+        display: none;
       }
 }
 
