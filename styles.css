@@ -363,7 +363,7 @@ padding: 1rem 2rem;
 margin-top: 2rem;
 background-color: #ffffff;
 }
-.cheese__image{
+.cheece__image{
   max-width: 42.7rem;
   max-height: 41.4rem;
 }
@@ -578,6 +578,27 @@ hr{
   }
   .desc__text__wrapper{
      font-size: 0.9rem;
+  }
+  .cheece__image{
+    max-width: 32.7rem;
+    max-height: 31.4rem;
+   
+  }
+  .intro__title{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+  .intro__feature{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+  .delivery__body__text{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+  .bike__delivery{
+    top: 0;
+    left: -9.5rem;
   }
 }
 
