@@ -314,13 +314,20 @@ text-transform: capitalize;
 }
 
 /* deliver section */
+
+
 .delivery__section{
-  display: flex;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delivery__wrapper{
   max-width: 80%;
-  margin: 0 auto;
+  display: flex;
   padding-top: 5.5rem;
   gap: 9rem;
   align-items: center;
+  justify-content: center;
   padding-bottom: 5.5rem;
 }
 .intro__feature{
