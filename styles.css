@@ -781,6 +781,10 @@ hr{
         font-size: 1.5rem;
         line-height: 2.8rem;
       }
+      .why__choose{
+        flex-direction: column;
+        gap: 2rem;
+      }
 }
 
 @media (max-width: 330px){
