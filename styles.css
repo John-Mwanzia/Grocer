@@ -784,6 +784,9 @@ hr{
   max-width: 10.4rem;
   max-height: 14rem;
 }
+.CTA__wrapper{
+   gap: 2rem;
+}
 }  
  
 
