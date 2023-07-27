@@ -926,6 +926,19 @@ hr{
       .bike__delivery{
         display: none;
       }
+      .CTA__wrapper{
+        flex-direction: column;
+        gap: 2rem;
+      }
+      .download__details{
+       text-align: center;
+       padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .download__callTo__action{
+        justify-content: space-around;
+      }
+     
 }
 
 @media (max-width: 330px){
