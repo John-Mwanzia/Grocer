@@ -426,7 +426,6 @@ line-height: 1.8rem; /* 166.667% */
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   margin-top: 3rem;
 }
 .download__callTo__action button{
@@ -729,6 +728,32 @@ hr{
     white-space: nowrap;
     margin-top: 1rem;
   }
+  .CTA__wrapper{
+    gap: 6rem;
+  }
+  .download__body__text{
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .download__title{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .download__intro{
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+  .download__callTo__action{
+    gap: 1rem;
+  }
+  .download__callTo__action button{
+    padding: 0.4rem 1.5rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    margin-top: 0.1rem;
+    gap: 1rem;
+  }
+
 }
 
 @media (max-width: 768px){
