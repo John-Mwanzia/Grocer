@@ -426,7 +426,8 @@ line-height: 1.8rem; /* 166.667% */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+
+  margin-top: 3rem;
 }
 .download__callTo__action button{
   border-radius: 12px;
@@ -605,6 +606,14 @@ hr{
   }
   .CTA__wrapper{
     gap: 15rem;
+  }
+  .download__body__text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .download__title{
+    font-size: 1.9rem;
+    line-height: 2.5rem;
   }
 }
 
