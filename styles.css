@@ -603,6 +603,9 @@ hr{
     top: 3.5rem;
     left: -4rem;
   }
+  .CTA__wrapper{
+    gap: 15rem;
+  }
 }
 
 
