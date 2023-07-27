@@ -157,6 +157,9 @@ line-height: 80px; /* 118.919% */
 letter-spacing: -0.74px;
 }
 
+.non__break__hero__text{
+  white-space: nowrap;
+}
 .light-text{
   color: #676767;
 font-family: Poppins;
