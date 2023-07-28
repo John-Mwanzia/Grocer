@@ -774,6 +774,9 @@ hr{
   .footer__links{
     flex-wrap: wrap;
   }
+  .copyright{
+    gap: 8rem;
+  }
 
 }
 
