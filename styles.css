@@ -969,6 +969,10 @@ hr{
       .download__callTo__action{
         justify-content: space-around;
       }
+      .copyright{
+        flex-direction: column-reverse;
+        gap: 2rem;
+      }
      
 }
 
