@@ -620,6 +620,18 @@ hr{
     font-size: 1.9rem;
     line-height: 2.5rem;
   }
+  .footer__links{
+    gap: 5rem;
+  }
+  .copyright{
+    gap: 26rem;
+  }
+  .terms__privacy{
+    gap: 3rem;
+  }
+  .terms__privacy a{
+    white-space: nowrap;
+  }
 }
 
 
