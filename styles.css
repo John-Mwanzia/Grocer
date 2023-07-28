@@ -450,7 +450,7 @@ line-height: 1.8rem; /* 166.667% */
 }
 .footer__links{
   display: flex;
-  gap: 10rem;
+  row-gap: 10rem;
   justify-content: center;
   color: #676767;
   font-family: Poppins;
@@ -771,6 +771,9 @@ hr{
     margin-top: 0.1rem;
     gap: 1rem;
   }
+  .footer__links{
+    flex-wrap: wrap;
+  }
 
 }
 
@@ -804,6 +807,9 @@ hr{
 }
 .CTA__wrapper{
    gap: 2rem;
+}
+.footer__links{
+  flex-wrap: wrap;
 }
 }  
  
