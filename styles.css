@@ -969,6 +969,7 @@ hr {
 .section{
   max-width: 80%;
   margin: 0 auto;
+  margin-bottom: 10rem;
 }
 .contact-wrapper {
   margin-top: 50px;
