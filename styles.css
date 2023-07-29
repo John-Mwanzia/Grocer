@@ -965,10 +965,14 @@ hr {
   }
 }
 
+/* Contact Page */
+.section{
+  max-width: 80%;
+  margin: 0 auto;
+}
 .contact-wrapper {
-  margin-left: 9%;
   margin-top: 50px;
-  width: 35%;
+  width: 44%;
 }
 
 .input-fields {
