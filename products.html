@@ -4,51 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Poppins:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <div class="header-wrapper">
-        <div class="header">
-          <div class="logo">
-            <h2>
-              <a href="./index.html">John Mwanzia</a>
-            </h2>
-          </div>
-
-          <div class="menu">
-            <ul>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="about.html">About</a>
-              </li>
-              <li>
-                <a href="services.html">Services</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
-
-              <li>
-                <a href="blog.html">Blog</a>
-              </li>
-            </ul>
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="nav__container">
+          <div class="nav__wrapper">
+            <div class="logo">
+              <a href="index.html">
+                <img src="public\images\logo.svg" alt="logo" />
+              </a>
+            </div>
+            <div class="hamburger">
+              <div class="line"></div>
+              <div class="line short"></div>
+              <div class="line"></div>
+            </div>
+            <div class="nav-links">
+              <ul>
+                <li><a href="index.html" class="home__link">Home</a></li>
+                <li><a href="products.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="search-cart">
+              <div class="search">
+                <input type="text" class="search__input" placeholder="Search" />
+                <button class="search-icon">
+                  <img src="public\images\icon.svg" alt="search" />
+                </button>
+              </div>
+              <div class="cart">
+                <a href="#"><img src="public\images\cart.svg" alt="cart"/></a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </nav>
 
-      <div>
-        <h1 class="home-title">Services</h1>
-      </div>
-      <footer class="footer">
-        <div>
-          <p>
-            © 2020 John Mwanzia. All Rights Reserved.
-          </p>
+      <!-- Footer -->
+      <footer>
+        <div class="footer">
+          <div class="footer__links">
+            <div>
+              <a href="index.html">
+                <img src="public\images\logo.svg" alt="logo" />
+              </a>
+              <p class="footer__text">
+                Fast delivery, which is active all<br />
+                over the world, serves with many <br />
+                transportation vehicles.
+              </p>
+            </div>
+            <div>
+              <h3 class="footer__title">Company</h3>
+              <div class="footer__links">
+                <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">All Products</a></li>
+                  <li><a href="#">Locations Map</a></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h3 class="footer__title">Services</h3>
+              <div class="footer__links">
+                <ul>
+                  <li><a href="#">Order tracking</a></li>
+                  <li><a href="#">Wish list</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">My Account</a></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h3 class="footer__title">Get in Touch</h3>
+              <p>
+                Subscribe to our weekly Newsletter <br />
+                and receive updates via email.
+              </p>
+              <form action="" class="footer__form">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="footer__input"
+                />
+                <button class="footer__button">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          <hr />
+          <div class="copyright">
+            <p>© 2023 Grocer. All Rights Reserved.</p>
+            <div class="terms__privacy">
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
