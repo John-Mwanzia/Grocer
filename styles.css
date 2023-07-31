@@ -107,6 +107,12 @@ body {
   margin-left: 9%;
   margin-top: 50px;
 }
+.cart__count{
+  background-color: #f55253;
+  color: white;
+ 
+
+}
 .intro-feature {
   display: flex;
   justify-content: space-between;
