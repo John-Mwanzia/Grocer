@@ -107,10 +107,16 @@ body {
   margin-left: 9%;
   margin-top: 50px;
 }
+.cart{
+  position: relative;
+}
 .cart__count{
   background-color: #f55253;
   color: white;
- 
+ padding: 0.3rem 0.6rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.5rem;
 
 }
 .intro-feature {
