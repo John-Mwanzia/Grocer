@@ -973,8 +973,11 @@ hr {
   .search-cart {
     position: absolute;
     top: 6rem;
-    left: 6%;
+    left: 13%;
     width: 10rem;
+  }
+  .search input{
+    width: 7rem;
   }
 }
 
