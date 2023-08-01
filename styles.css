@@ -986,6 +986,31 @@ hr {
     font-size: 2.2rem;
     line-height: 2.5rem;
   }
+  .hero-text{
+    margin-top: 1rem;
+  }
+  .light-text{
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .call-to-action{
+    margin-top: 1rem;
+  }
+  .order-button{
+    padding: 0.5rem 1rem;
+    font-size: 0.6rem;
+  }
+  .play h2{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  .hero-image-wrapper{
+    padding: 0 1rem;
+  }
+  .hero-image{
+    width: 22rem;
+    height: 17rem;
+  }
 }
 
 /* Contact Page */
