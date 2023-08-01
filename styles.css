@@ -979,6 +979,9 @@ hr {
   .search input{
     width: 7rem;
   }
+  .nav-links ul{
+    left: 15%;
+  }
 }
 
 /* Contact Page */
