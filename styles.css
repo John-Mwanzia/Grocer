@@ -1011,6 +1011,10 @@ hr {
     width: 22rem;
     height: 17rem;
   }
+  .feature__intro h2{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
 }
 
 /* Contact Page */
