@@ -982,6 +982,10 @@ hr {
   .nav-links ul{
     left: 15%;
   }
+  .hero-large-text{
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
 }
 
 /* Contact Page */
