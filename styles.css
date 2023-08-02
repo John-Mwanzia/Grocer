@@ -140,13 +140,20 @@ body {
   top: 0.5rem;
   right: 0.5rem;
 }
+.hero__section__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  padding-bottom: 4.8rem;
+}
 .hero-section {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 7rem;
-  margin-top: 5rem;
-  padding-bottom: 4.8rem;
+  
+
   max-width: 80%;
 
 }
