@@ -107,18 +107,17 @@ body {
   margin-left: 9%;
   margin-top: 50px;
 }
-.cart{
+.cart {
   position: relative;
 }
-.cart__count{
+.cart__count {
   background-color: #f55253;
   color: white;
- padding: 0.3rem 0.6rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 50%;
   position: absolute;
   top: -1rem;
   right: -1.4rem;
-
 }
 .intro-feature {
   display: flex;
@@ -140,7 +139,7 @@ body {
   top: 0.5rem;
   right: 0.5rem;
 }
-.hero__section__wrapper{
+.hero__section__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,10 +151,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 7rem;
-  
 
   max-width: 80%;
-
 }
 .right-hero-section {
   display: flex;
@@ -983,49 +980,49 @@ hr {
     left: 13%;
     width: 10rem;
   }
-  .search input{
+  .search input {
     width: 7rem;
   }
-  .nav-links ul{
+  .nav-links ul {
     left: 15%;
   }
-  .hero-large-text{
+  .hero-large-text {
     font-size: 2.2rem;
     line-height: 2.5rem;
   }
-  .hero-text{
+  .hero-text {
     margin-top: 1rem;
   }
-  .light-text{
+  .light-text {
     font-size: 0.7rem;
     line-height: 1rem;
   }
-  .call-to-action{
+  .call-to-action {
     margin-top: 1rem;
   }
-  .order-button{
+  .order-button {
     padding: 0.5rem 1rem;
     font-size: 0.6rem;
   }
-  .play h2{
+  .play h2 {
     font-size: 0.8rem;
     line-height: 1.5rem;
   }
-  .hero-image-wrapper{
+  .hero-image-wrapper {
     padding: 0 1rem;
   }
-  .hero-image{
+  .hero-image {
     width: 22rem;
     height: 17rem;
   }
-  .feature__intro h2{
+  .feature__intro h2 {
     font-size: 1.4rem;
     line-height: 2.4rem;
   }
 }
 
 /* Contact Page */
-.section{
+.section {
   max-width: 80%;
   margin: 0 auto;
   margin-bottom: 10rem;
