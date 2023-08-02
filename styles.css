@@ -540,7 +540,7 @@ hr {
     gap: 0.7rem;
   }
   .hero-section {
-    gap: 0.4rem;
+    gap: 0;
   }
   .hero-large-text {
     font-size: 3rem;
@@ -551,8 +551,8 @@ hr {
     line-height: 1.1rem;
   }
   .hero-image {
-    width: 42rem;
-    height: 32rem;
+    width: 36rem;
+    height: 27rem;
   }
   .call-to-action {
     gap: 3rem;
