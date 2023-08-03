@@ -539,6 +539,9 @@ hr {
   .nav-links ul {
     gap: 0.7rem;
   }
+  .hero__section__wrapper{
+    margin-top: 3rem;
+  }
   .hero-section {
     gap: 0;
   }
