@@ -195,6 +195,7 @@ body {
   padding: 1rem 2rem;
   color: white;
   border: none;
+  cursor: pointer;
 }
 .play {
   display: flex;
@@ -211,6 +212,7 @@ body {
 .play-wrapper {
   background: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
 .features {
@@ -328,6 +330,9 @@ body {
   border: none;
   margin-top: 2rem;
 }
+.call-to-action-choice button{
+  cursor: pointer;
+}
 
 /* deliver section */
 
@@ -377,6 +382,7 @@ body {
   padding: 1rem 2rem;
   margin-top: 2rem;
   background-color: #ffffff;
+  cursor: pointer;
 }
 .cheece__image {
   width: 42.7rem;
@@ -752,6 +758,8 @@ hr {
   .CTA__wrapper {
     gap: 6rem;
   }
+
+  
   .download__body__text {
     font-size: 0.8rem;
     line-height: 1rem;
