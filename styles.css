@@ -330,7 +330,7 @@ body {
   border: none;
   margin-top: 2rem;
 }
-.call-to-action-choice button{
+.call-to-action-choice button {
   cursor: pointer;
 }
 
@@ -545,7 +545,7 @@ hr {
   .nav-links ul {
     gap: 0.7rem;
   }
-  .hero__section__wrapper{
+  .hero__section__wrapper {
     margin-top: 3rem;
   }
   .hero-section {
@@ -759,7 +759,6 @@ hr {
     gap: 6rem;
   }
 
-  
   .download__body__text {
     font-size: 0.8rem;
     line-height: 1rem;
